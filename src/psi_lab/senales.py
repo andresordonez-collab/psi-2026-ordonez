@@ -32,3 +32,4 @@ def espectro(x, fs):
     # frecuencias negativas se suma a las positivas.
     amp[1 : (n + 1) // 2] *= 2
     return freqs, amp
+
