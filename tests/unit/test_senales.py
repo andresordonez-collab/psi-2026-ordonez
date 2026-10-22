@@ -6,7 +6,7 @@ from psi_lab.senales import cuadrada, espectro, senoidal
 
 def test_numero_de_muestras():
     t, x = senoidal(f=5, fs=100, duracion=2)
-    assert t.size == x.size == 200
+    assert t.size == x.size == 999
 
 
 @pytest.mark.parametrize("f", [10.0, 50.0, 120.0])
